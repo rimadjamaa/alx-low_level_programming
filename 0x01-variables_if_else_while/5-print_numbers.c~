@@ -6,13 +6,11 @@
  */
 int main(void)
 {
-char letters = 'a';
-while (letters <= 'z')
+char numbers = '0';
+while (numbers <= '9')
 {
-if (letters == 'q' || letters == 'e')
-letters++;
-putchar(letters);
-letters++;
+putchar(numbers);
+numbers++;
 }
 putchar('\n');
 return (0);
