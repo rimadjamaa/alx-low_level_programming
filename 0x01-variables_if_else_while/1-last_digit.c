@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+11;rgb:0000/0000/0000#include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -25,3 +25,4 @@ else
 printf(" and is less than 6 and not 0\n");
 return (0);
 }
+
