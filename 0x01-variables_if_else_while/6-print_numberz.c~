@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-int numbers = '0';
-while (numbers <= '9')
+int i = 0;
+while (i <= 9)
 {
-putchar(numbers);
-numbers++;
+putchar('i');
+i++;
 }
 putchar('\n');
 return (0);
 }
+
 
 
