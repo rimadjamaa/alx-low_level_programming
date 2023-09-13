@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower(:)? (- print all alphabets in lowercase 10 times)?
+ * _islower:- check if the caracter is lower alphabet
+ * @c: is caracter 
  */
 int _islower(int c)
 {
