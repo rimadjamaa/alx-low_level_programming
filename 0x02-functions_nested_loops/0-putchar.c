@@ -2,14 +2,8 @@
 #include "main.h"
 /**
  * main - Entry point
- *
+ *@c: the caracter to print 
  * Return: Always 0 (Success)
- */
-/**
- * _putchar - Writes a character to stdout
- * @c: The character to print
- *
- * Return: On success 1. On error, -1 is returned.
  */
 int _putchar(char c);
 
