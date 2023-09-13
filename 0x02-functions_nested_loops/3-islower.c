@@ -2,8 +2,8 @@
 #include "main.h"
 /**
 * _islower:- check if the caracter is lower alphabet
-* @c: is caracter
-* Return: 1 if it's lower alphabet 0 if it's not 
+*@c:is caracter
+* Return: 1 if it's lower alphabet 0 if it's not
 */
 int _islower(int c)
 {
