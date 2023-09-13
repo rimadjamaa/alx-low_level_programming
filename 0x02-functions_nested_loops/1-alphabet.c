@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
 */
 /**
- *pritn_alphabet() - print alphabets in lowercas
+ * pritn_alphabet() - print alphabets in lowercas
 */
 void print_alphabet(void)
 {
