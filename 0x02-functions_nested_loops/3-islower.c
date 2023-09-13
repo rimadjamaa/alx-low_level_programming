@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet_x10(:)? (- print all alphabets in lowercase 10 times)?
+ * _islower(:)? (- print all alphabets in lowercase 10 times)?
  */
 int _islower(int c)
 {
