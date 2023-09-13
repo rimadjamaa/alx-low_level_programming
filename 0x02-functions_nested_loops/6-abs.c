@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* int _abs:- count the absoulout value of an int
+* _abs:- count the absoulout value of an int
 *@abs: the number to count here abslout value
 * Return: the absoulute value
 */
