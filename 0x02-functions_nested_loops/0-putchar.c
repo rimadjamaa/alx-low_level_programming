@@ -4,8 +4,11 @@
  *
  * Return: Always 0 (Success)
  */
-
-int _putchar(char);
+/**
+ *c is the parameter of the funtion _putchar 
+ *the call of funtion _putchar requier a char parameter 
+ */
+int _putchar(char c);
 
 int main(void)
 {
