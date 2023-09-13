@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * print_sign:- check the status (+,-or 0)for the ascii number of caracter
-*@c:is caracter
+*@n:is caracter
 * Return: 1 if it's possitive 0 if it's zero -1 if it's negative
 */
 int print_sign(int n)
