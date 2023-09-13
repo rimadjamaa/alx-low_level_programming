@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* print_last_digit:- print the last digit of the number
+* print_last_digit: - print the last digit of the number
 *@num: the number
 * Return: the last digit
 */
