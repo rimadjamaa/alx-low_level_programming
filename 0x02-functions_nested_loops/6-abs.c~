@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "main.h"
+/**
+* int _abs:- count the absoulout value of an int
+*@abs: the number to count here abslout value
+* Return: the absoulute value
+*/
+int _abs(int abs)
+{
+if (abs >= 0)
+return (abs);
+else
+return (abs*(-1));
+}
+
