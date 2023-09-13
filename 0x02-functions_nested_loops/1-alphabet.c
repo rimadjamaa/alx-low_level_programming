@@ -1,12 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always 0 (Success)
-*/
-/**
- * pritn_alphabet() - print alphabets in lowercas
-*/
+ * print_alphabet(:)? (- print all alphabets in lowercase)?
+ */
 void print_alphabet(void)
 {
 char a;
