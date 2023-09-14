@@ -14,10 +14,10 @@ printf("Infinite loop incoming :(\n");
 i = 0;
 
 /*
-*wille (i < 10)
-*{
-*putchar(i);
-*}
+ *wille (i < 10)
+ *{
+ *putchar(i);
+ *}
 */
 
 printf("Infinite loop avoided! \\o/\n");
