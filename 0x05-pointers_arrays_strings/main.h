@@ -9,6 +9,7 @@ void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
+void puts_half(char *str);
 /* Add prototypes for other functions if needed */
 
 #endif /* MAIN_H */
