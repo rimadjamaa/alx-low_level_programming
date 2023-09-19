@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _puts - print a string with neew line
- * @s: is the string
+ * @str: is the string
  * Return: the string with new line
  */
 void _puts(char *str)
