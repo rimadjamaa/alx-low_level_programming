@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+0;276;0c/**
  * rev_string - Entry point
  * @s: string
  * Return: Always 0 (Success)
@@ -15,7 +15,7 @@ while (s[lenth] != '\0')
 lenth++;
 }
 final = lenth - 1;
-for (i = 0; i <= ((lenth-1) / 2); i++)
+for (i = 0; i <= ((lenth - 1) / 2); i++)
 {
 temp = s[final];
 s[final] = s[i];
