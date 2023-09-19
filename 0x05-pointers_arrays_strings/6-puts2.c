@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * rev_string - Entry point
- * @s: string
+ * puts2 - Entry point
+ * @str: string
  * Return: Always 0 (Success)
  */
 void puts2(char *str)
