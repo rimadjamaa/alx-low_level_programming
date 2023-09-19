@@ -1,5 +1,5 @@
 #include <stdio.h>
-0;276;0c/**
+/**
  * rev_string - Entry point
  * @s: string
  * Return: Always 0 (Success)
