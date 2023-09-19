@@ -15,7 +15,7 @@ while (s[lenth] != '\0')
 lenth++;
 }
 final = lenth - 1;
-for (i = 0; i <= (lenth / 2); i++)
+for (i = 0; i <= ((lenth-1) / 2); i++)
 {
 temp = s[final];
 s[final] = s[i];
