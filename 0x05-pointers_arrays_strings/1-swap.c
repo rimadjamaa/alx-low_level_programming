@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * swap_int - swap between 2 int
+ * @a: first pointer
+ * @b: second pointer
+ * Return: nothing
  */
 void swap_int(int *a, int *b)
 {
