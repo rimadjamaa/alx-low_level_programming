@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+ * _strlen - get the lentgh of character
+ * @s: the caractere
+ * Return: the lentgh
+*/
+int _strlen(char *s)
+{
+return (sizeof(s));
+}
