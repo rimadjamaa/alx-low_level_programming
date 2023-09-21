@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * *_stract - swap between 2 int
  * @dest: destination file
  * @src: source file
- * Return: nothing
- */
+ * Return: file destination wich contain the content of source file 
+*/
 char *_strcat(char *dest, char *src)
 {
 char *result = dest;
