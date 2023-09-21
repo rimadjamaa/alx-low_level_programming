@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * *strncat - swap between 2 int
+ * *_strncat - swap between 2 int
  *
  * @dest: first pointer
  * @src: second pointer
