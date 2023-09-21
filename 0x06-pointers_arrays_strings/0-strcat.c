@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * *_stract - swap between 2 int
+ * *_strcat - this fonction copi the source file into the dest file
  * @dest: destination file
  * @src: source file
  * Return: file destination wich contain the content of source file
