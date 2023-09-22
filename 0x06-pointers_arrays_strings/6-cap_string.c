@@ -5,14 +5,16 @@
 */
 char *cap_string(char *str)
 {
-int i, capitalize_next = 1;
+char separators[] = " \t\n,;.!?\"(){}";
+int j, i, capitalize_next = 1;
 for (i = 0; str[i] != '\0'; i++)
 {
-  if (str[i] != ',' && str[i] != ';' && str[i] != '.' && str[i] != '!' && str[i] != '?' && str[i] != '"' && str[i] != '(' && str[i] != ')' && str[i] != '{' && str[i] != '}')
+for (j = 0; separators[j] != '\0'; j++)
 {
+if (str[j] == separators[j])
 capitalize_next = 1;
 }
-else if (capitalize_next)
+if (capitalize_next)
 {
 if (str[i] >= 'a' && str[i] <= 'z')
 {
