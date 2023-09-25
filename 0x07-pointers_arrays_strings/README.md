@@ -1,0 +1,1 @@
+in this dir there are tasks about pointer of pointer
