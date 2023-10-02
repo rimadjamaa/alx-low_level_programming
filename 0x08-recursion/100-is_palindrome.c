@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 {
 int length = 0;
 
-while (s[length] != '\0')
+if (s[length] != '\0')
 length++;
 
 return (is_palindrome_helper(s, 0, length - 1));
