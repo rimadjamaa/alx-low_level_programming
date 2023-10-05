@@ -1,0 +1,1 @@
+This directory will contain diffrent projects about Memory allocation 
