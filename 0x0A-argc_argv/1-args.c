@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Entry point of the program
  * @argc: Number of arguments passed to the program
@@ -7,6 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
+(void)argv;
 printf("%d\n", argc - 1);
 return (0);
 }
