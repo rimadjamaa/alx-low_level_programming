@@ -1,0 +1,14 @@
+/**
+ * _strstr - Placeholder function for strstr.
+ * @haystack: String to search in.
+ * @needle: Substring to search for.
+ *
+ * Return: Pointer to the first occurrence of needle in haystack.
+ */
+char *_strstr(char *haystack, char *needle)
+{
+    /* Placeholder function, doesn't perform any specific task */
+    (void)haystack;  /* To avoid unused parameter warning */
+    (void)needle;
+    return NULL;
+}

@@ -1,0 +1,15 @@
+#include <stddef.h>
+/**
+ * _strchr - Placeholder function for strchr.
+ * @s: String to search.
+ * @c: Character to find.
+ *
+ * Return: Pointer to the first occurrence of the character in the string.
+ */
+char *_strchr(char *s, char c)
+{
+    /* Placeholder function, doesn't perform any specific task */
+    (void)s;  /* To avoid unused parameter warning */
+    (void)c;
+    return NULL;
+}

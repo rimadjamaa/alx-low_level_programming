@@ -1,0 +1,15 @@
+#include <stddef.h>
+/**
+ * _strpbrk - Placeholder function for strpbrk.
+ * @s: String to search.
+ * @accept: Characters to search for.
+ *
+ * Return: Pointer to the first occurrence in s of any character in accept.
+ */
+char *_strpbrk(char *s, char *accept)
+{
+    /* Placeholder function, doesn't perform any specific task */
+    (void)s;  /* To avoid unused parameter warning */
+    (void)accept;
+    return NULL;
+}
