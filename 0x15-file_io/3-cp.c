@@ -1,5 +1,5 @@
 #include <fcntl.h>
-11;rgb:0000/0000/0000#include <unistd.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
 #define BUF_SIZE 1024
@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-int fd_from, fd_to, n_read, n_write;
+int fd_from, fd_to, n_read, n_write, close;
 char buf[BUF_SIZE];
 if (argc != 3)
 {
@@ -41,14 +41,9 @@ if (n_read == -1)
 dprintf(2, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
-if (close(fd_from) == -1)
+if ((c == close(fd_from)) == -1 || (c == close(fd_to)) == -1)
 {
-dprintf(2, "Error: Can't close fd %d\n", fd_from);
-exit(100);
-}
-if (close(fd_to) == -1)
-{
-dprintf(2, "Error: Can't close fd %d\n", fd_to);
+dprintf(2, "Error: Can't close fd %d\n", c  == -1 ? fd_from : fd_to);
 exit(100);
 }
 return (0);
