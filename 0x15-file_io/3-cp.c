@@ -1,5 +1,5 @@
 #include <fcntl.h>
-#include <unistd.h>
+11;rgb:0000/0000/0000#include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
 #define BUF_SIZE 1024
@@ -51,4 +51,5 @@ if (close(fd_to) == -1)
 dprintf(2, "Error: Can't close fd %d\n", fd_to);
 exit(100);
 }
+return (0);
 }
