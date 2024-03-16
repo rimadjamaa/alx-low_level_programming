@@ -1,1 +1,0 @@
-this directory will contain all tasks about Variadic Functions

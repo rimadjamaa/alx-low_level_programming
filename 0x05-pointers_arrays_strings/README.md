@@ -1,1 +1,0 @@
-in this dir we will parctice about pointers and arrays

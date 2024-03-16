@@ -1,1 +1,0 @@
-this repo will conatain advencef functions in c

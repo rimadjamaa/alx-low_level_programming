@@ -1,1 +1,0 @@
-this directory will contain the tasks of debugging pervious  projects 
